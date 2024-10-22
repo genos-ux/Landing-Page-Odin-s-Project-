@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    font-family: 'Roboto';
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 130px 120px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 100px;
+
+}
+
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+button{
+    border: none;
+
+}
+
+.meta-logo{
+    display: flex;
+    gap: 10px;
+
+}
+
+.meta-bil > p{
+    width: 70%;
+    margin: 10px 0;
+}
+
+p , li {
+    font-size: 18px;
+    color: #efe7eb;
+}
+
+.meta-bil h1 {
+    font-size: 48px;
+    color: #F9faf8;
+    font-weight: 900;
+}
+
+.meta-bil button {
+    border: none;
+    background: #3882f6;
+    border-radius: 4px;
+    padding: 8px;
+    color: #F9faf8;
+    width: 20%;
+
+}
+
+.bil{
+    width: 66%;
+    height: 250px;
+    background: #e5e7ea;
+
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bil p {
+    color: #1f2937;
+}
