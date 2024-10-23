@@ -78,7 +78,6 @@ button{
     width: 66%;
     height: 250px;
     background: #e5e7ea;
-
     min-width: 0;
     display: flex;
     justify-content: center;
@@ -109,11 +108,11 @@ button{
     gap: 40px;
 
 }
+
 .info {
     width: 150px;
     text-align: center;
 }
-
 
 .mini-card{
     width: 160px;
@@ -128,7 +127,7 @@ button{
 
     padding: 20px 0;
     background: #e5e7eb;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 .quote {
     display: flex;
@@ -146,8 +145,6 @@ button{
     font-style: italic;
     width: 70%;
     text-align: justify;
-
-
 }
 
 .quote h2 {
@@ -157,13 +154,32 @@ button{
 #dialogue {
     display: flex;
     width: 80%;
-
-    border: 1px solid red;
-    padding: 40px;
     justify-content: space-around;
+    padding: 55px;
+    align-items: center;
     /* padding: 20px 130px 120px; */
     margin-left: 130px;
+    color: white;
+    background: #3882f6;
+    border-radius: 8px;
+    margin-bottom: 90px;
+
 }
-#dialogue > *{
-    flex: 1;
+
+.btn button {
+    padding: 4px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #1f2937;
+    color: #efe7eb;
 }
