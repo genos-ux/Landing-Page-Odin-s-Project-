@@ -128,9 +128,9 @@ button{
 
     padding: 20px 0;
     background: #e5e7eb;
+    margin-bottom: 70px;
 }
 .quote {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +138,6 @@ button{
     width: 83%;
     padding: 70px 0;
     gap: 10px;
-
 }
 
 .quote p {
@@ -153,4 +152,18 @@ button{
 
 .quote h2 {
     align-self: flex-end;
+}
+
+#dialogue {
+    display: flex;
+    width: 80%;
+
+    border: 1px solid red;
+    padding: 40px;
+    justify-content: space-around;
+    /* padding: 20px 130px 120px; */
+    margin-left: 130px;
+}
+#dialogue > *{
+    flex: 1;
 }
